@@ -28,7 +28,7 @@ void kern(addFunc func, int n, float *x, float *y) {
 		func(x, y, i);
 }
 
-
+//?????
 __device__ addFunc d_add = add;
 
 int main(void)
